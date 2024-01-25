@@ -1,0 +1,11 @@
+account_id = ""
+compatibility_date = "2024-01-24"
+main = ".output/server/index.mjs"
+name = "nuxt-add-route"
+workers_dev = true
+
+[site]
+bucket = ".output/public"
+
+[build]
+command = "NITRO_PRESET=cloudflare_module yarn build"
